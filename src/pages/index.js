@@ -89,9 +89,9 @@ export default function Home() {
           Hear from real learners and educators who use Azania every day.
         </p>
         <div className="grid md:grid-cols-3 gap-6">
-          <div className="bg-blue-50 p-4 rounded shadow">"This platform changed how I study!" – Amina, Grade 12</div>
-          <div className="bg-blue-50 p-4 rounded shadow">"Clear notes and real exam papers." – Thabo, Teacher</div>
-          <div className="bg-blue-50 p-4 rounded shadow">"I passed thanks to Azania!" – Lerato, University Student</div>
+         <div className="bg-blue-50 p-4 rounded shadow">&quot;This platform changed how I study!&quot; – Amina, Grade 12</div>
+          <div className="bg-blue-50 p-4 rounded shadow">&quot;Clear notes and real exam papers.&quot; – Thabo, Teacher</div>
+          <div className="bg-blue-50 p-4 rounded shadow">&quot;I passed thanks to Azania!&quot; – Lerato, University Student</div>
         </div>
         <div className="mt-8 text-blue-800 font-semibold">
           📈 50,000+ Downloads | 20+ Subjects | Community of 10,000+ Learners
