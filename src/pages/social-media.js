@@ -19,7 +19,7 @@ export default function SocialMedia() {
 
         {/* Instagram */}
         <a
-          href="https://www.instagram.com/@azaniamaake"
+          href="https://www.instagram.com/@azanialearninghub"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-pink-100 hover:bg-pink-200 text-pink-800 p-4 rounded shadow text-lg"
