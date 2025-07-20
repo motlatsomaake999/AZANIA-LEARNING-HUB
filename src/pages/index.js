@@ -17,6 +17,7 @@ export default function Home() {
           <Link href="/videos">Videos</Link>
           <Link href="/about">About Us</Link>
           <Link href="/contact">Contact</Link>
+          <Link href="/social-media">Our Social Media</Link>
         </nav>
         <div>
           <button className="bg-blue-700 text-white px-4 py-2 rounded hover:bg-blue-800">Login/Register</button>
