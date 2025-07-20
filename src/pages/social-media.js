@@ -9,7 +9,7 @@ export default function SocialMedia() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-3xl mx-auto">
         {/* Facebook */}
         <a
-          href="https://www.facebook.com/YOUR_USERNAME"
+          href="https://www.facebook.com/share/1BDM3tu2S1"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-blue-100 hover:bg-blue-200 text-blue-800 p-4 rounded shadow text-lg"
@@ -19,7 +19,7 @@ export default function SocialMedia() {
 
         {/* Instagram */}
         <a
-          href="https://www.instagram.com/YOUR_USERNAME"
+          href="https://www.instagram.com/@azanialearninghub"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-pink-100 hover:bg-pink-200 text-pink-800 p-4 rounded shadow text-lg"
@@ -29,7 +29,7 @@ export default function SocialMedia() {
 
         {/* Twitter/X */}
         <a
-          href="https://twitter.com/YOUR_USERNAME"
+          href="https://twitter.com/@AzaniaMaake"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-blue-50 hover:bg-blue-100 text-blue-600 p-4 rounded shadow text-lg"
@@ -59,7 +59,7 @@ export default function SocialMedia() {
 
         {/* YouTube */}
         <a
-          href="https://www.youtube.com/@YOUR_CHANNEL"
+          href="https://www.youtube.com/@azanialearninghub"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-red-100 hover:bg-red-200 text-red-700 p-4 rounded shadow text-lg"
