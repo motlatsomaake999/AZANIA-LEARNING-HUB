@@ -68,7 +68,39 @@ const papersByYear = {
   "WC-CW-Physical-Sciences-Grade-12-September-2024-P2-and-Memo.pdf",
   "WC-MC-Physical-Sciences-Grade-12-LAST-PUSH-CHEMISTRY-2024.pdf",
   "WC-MN-Physical-Sciences-Grade-12-September-2024.pdf"
-],
+],"2023": [
+  "EC-Physical-Sciences-Grade-12-June-2023-P1-and-Memo.pdf",
+  "EC-Physical-Sciences-Grade-12-June-2023-P2-and-Memo.pdf",
+  "EC-Physical-Sciences-Grade-12-March-2023-QP-and-Memo.pdf",
+  "EC-Physical-Sciences-Grade-12-SEPT-2023-P1-and-Memo.pdf",
+  "EC-Physical-Sciences-Grade-12-SEPT-2023-P2-and-Memo.pdf",
+  "FS-Physical-Sciences-Grade-12-March-2023-QP-and-Memo.pdf",
+  "FS-Physical-Sciences-Grade-12-SEPT-2023-P1-and-Memo.pdf",
+  "FS-Physical-Sciences-Grade-12-Trial-Exam-2023-P2-and-Memo.pdf",
+  "Gauteng-Physical-Sciences-Grade-12-March-2023-QP-and-Memo.pdf",
+  "GP-Physical-Sciences-Grade-12-June-2023-P1-and-Memo.pdf",
+  "GP-Physical-Sciences-Grade-12-June-2023-P2-and-Memo.pdf",
+  "GP-Physical-Sciences-Grade-12-SEPT-2023-P1-and-Memo.pdf",
+  "IEB-Physical-Sciences-Grade-12-November-2023-P1-only.pdf",
+  "KZN-Physical-Sciences-Grade-12-June-2023-P1-and-Memo.pdf",
+  "KZN-Physical-Sciences-Grade-12-June-2023-P2-and-Memo.pdf",
+  "KZN-Physical-Sciences-Grade-12-Trial-Exam-2023-P1-and-Memo.pdf",
+  "KZN-Physical-Sciences-Grade-12-Trial-Exam-2023-P2-and-Memo.pdf",
+  "LP-Physical-Sciences-Grade-12-SEPT-2023-P1-and-Memo-1.pdf",
+  "LP-Physical-Sciences-Grade-12-SEPT-2023-P1-and-Memo.pdf",
+  "MP-Physical-Science-Grade-12-March-2023-QP-and-Memo.pdf",
+  "MP-Physical-Science-Grade-12-TEST-Chemical-Equilibrium-2023-and-Memo.pdf",
+  "MP-Physical-Science-Grade-12-TEST-Doppler-Effect-2023-and-Memo.pdf",
+  "MP-Physical-Science-Grade-12-TEST-Rates-of-Reaction-2023-and-Memo.pdf",
+  "MP-Physical-Science-Grade-12-Vertical-Projectile-TEST-2023-and-Memo.pdf",
+  "MP-Physical-Sciences-Grade-12-SEPT-2023-P1-and-Memo.pdf",
+  "MP-Physical-Sciences-Grade-12-SEPT-2023-P2-and-Memo.pdf",
+  "NSC-Physical-Science-Grade-12-November-2023-P1-and-Memo.pdf",
+  "NSC-Physical-Science-Grade-12-November-2023-P2-and-Memo.pdf",
+  "NSC-Physical-Sciences-Grade-12-May-June-2023-P1-and-Memo.pdf",
+  "NSC-Physical-Sciences-Grade-12-May-June-2023-P2-and-Memo.pdf",
+  "NW-Physical-Sciences-Grade-12-SEPT-2023-P1-and-Memo.pdf"
+]
 
   // 🎯 Add other years here, e.g. "2024": [ ...files ], "2023": [ ...files ], up to "2014"
 };
