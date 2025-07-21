@@ -2,15 +2,34 @@ import { useState } from 'react';
 
 const papers2025 = [
   "2025_KZN_PHSC_GRADE_12_ATP_FINAL.pdf",
-  "EC-CHW-Physical-Sciences-Grade-12-March-2025-P1.pdf",
-  "EC-ORT-Physical-Sciences-Grade-12-June-2025-P1.pdf",
-  "FS-Physical-Sciences-Grade-12-June-2025-P1.pdf",
-  "GP-Physical-Sciences-Grade-12-June-2025-P2.pdf",
-  "KZN-Physical-Sciences-Grade-12-June-2025-P1.pdf",
-  "LP-VW-Physical-Sciences-Grade-12-TEST-Term-2.pdf",
-  "MP-Physical-Sciences-Grade-12-June-2025-P2.pdf",
-  "NW-Physical-Science-Grade-12-June-2025-P1.pdf",
-  "NSC-Physical-Sciences-Grade-12-March-2025-P2.pdf"
+  "EC-CHW-Physical-Sciences-Grade-12-March-2025-QP-only.pdf",
+  "EC-ORT-Physical-Sciences-Grade-12-TEST-Organic-Reactions-2025-and-Memo.pdf",
+  "FS-Physical-Sciences-Grade-12-June-2025-P1-and-Memo.pdf",
+  "FS-Physical-Sciences-Grade-12-June-2025-P2-and-Memo.pdf",
+  "FS-Physical-Sciences-Grade-12-March-2025-QP-and-Memo.pdf",
+  "GP-Physical-Sciences-Grade-12-June-2025-P1-and-Memo.pdf",
+  "GP-Physical-Sciences-Grade-12-June-2025-P2-and-Memo.pdf",
+  "GP-Physical-Sciences-Grade-12-March-2025-QP-and-Memo.pdf",
+  "KZN-Physical-Sciences-Grade-12-June-2025-P1-and-Memo.pdf",
+  "KZN-Physical-Sciences-Grade-12-March-2025-QP-and-Memo.pdf",
+  "LP-B-Physical-Sciences-Grade-12-March-2025-QP-and-Memo.pdf",
+  "LP-Physical-Sciences-Grade-12-June-2025-P1-and-Memo.pdf",
+  "LP-Physical-Sciences-Grade-12-June-2025-P2-and-Memo.pdf",
+  "LP-Physical-Sciences-Grade-12-March-2025-QP-only.pdf",
+  "LP-Physical-Sciences-Grade-12-TEST-Work-Energy-Power-2025-and-Memo.pdf",
+  "LP-VW-Physical-Sciences-Grade-12-TEST-Term-1-2025-only.pdf",
+  "LP-W-Physical-Sciences-Grade-12-MOMENTUM-PRACTICAL-2025.pdf",
+  "MP-Physical-Sciences-Grade-12-March-2025-QP-and-Memo.pdf",
+  "MP-Physical-Sciences-Grade-12-TEST-Work-Energy-and-Power-2025-and-Memo (1).pdf",
+  "MP-Physical-Science-Grade-12-TEST-Work-Energy-and-Power-2025-and-Memo.pdf",
+  "MP-Physical-Sciences-Grade-12-June-2025-P1-and-Memo.pdf",
+  "MP-Physical-Sciences-Grade-12-June-2025-P2-and-Memo.pdf",
+  "NSC-Physical-Sciences-Grade-12-May-June-2025-P1.pdf",
+  "NSC-Physical-Sciences-Grade-12-May-June-2025-P2-only.pdf",
+  "NW-Physical-Science-Grade-12-March-2025-QP-and-Memo.pdf",
+  "NW-Physical-Science-Grade-12-June-2025-P1-and-Memo.pdf",
+  "Physical-Science-Grade-12-Momentum-Practical-Notes-2018.pdf",
+  "Physical-Science-Grade-12-Term-2-TITRATION-Practical-Manual.pdf"
 ];
 
 const extractProvince = (filename) => {
@@ -34,24 +53,26 @@ export default function QuestionPapers2025() {
 
   return (
     <section className="px-6 py-12">
-      <h2 className="text-2xl font-bold text-blue-900 mb-4">🔍 Grade 12 Physical Sciences — 2025</h2>
-
+      <h2 className="text-2xl font-bold text-blue-900 mb-4">📘 Grade 12 Physical Sciences — 2025</h2>
       <input
         type="text"
-        placeholder="Search by province, month, or term..."
+        placeholder="Search by month, province, memo…"
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
         className="w-full mb-6 px-4 py-2 border border-blue-300 rounded"
       />
+      <p className="text-sm text-gray-500 mb-4">
+        Showing {filteredPapers.length} of {papers2025.length} papers
+      </p>
 
       {Object.entries(grouped).map(([province, files]) => (
         <div key={province} className="mb-8">
-          <h3 className="text-xl font-semibold text-purple-800 mb-2">{province}</h3>
-          <div className="space-y-3">
+          <h3 className="text-lg font-semibold text-purple-800 mb-2">{province}</h3>
+          <div className="space-y-2">
             {files.map((filename, index) => (
               <div
                 key={index}
-                className="flex justify-between items-center bg-white shadow p-4 rounded text-sm"
+                className="flex justify-between items-center bg-white shadow p-3 rounded text-sm"
               >
                 <span>{filename.replace(".pdf", "")}</span>
                 <a
