@@ -125,7 +125,6 @@ const papersByYear = {
   "TEST-ELECTROCHEMISTRY-2022-and-Memo.pdf",
   "TEST-ELECTROSTATICS-2022-and-Memo.pdf"
 ]
-
   // 🎯 Add other years here, e.g. "2024": [ ...files ], "2023": [ ...files ], up to "2014"
 };
 
