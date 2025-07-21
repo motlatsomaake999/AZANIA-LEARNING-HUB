@@ -26,16 +26,16 @@ export default function Home() {
 
   {/* 📚 Hero Section with Background Image */}
 <section
-  className="relative h-[500px] md:h-[600px] flex items-center justify-center text-center bg-cover bg-center bg-no-repeat"
+  className="relative h-[350px] md:h-[450px] flex items-center justify-center text-center bg-cover bg-center bg-no-repeat"
   style={{ backgroundImage: "url('/hero-banner.jpg')" }}
 >
   <div className="bg-black bg-opacity-40 absolute inset-0"></div>
 
   <div className="relative z-10 px-6 text-white max-w-3xl">
-    <h2 className="text-4xl md:text-5xl font-bold mb-4 drop-shadow-lg">
+    <h2 className="text-4xl md:text-5xl font-bold mb-2 drop-shadow-lg">
       Empowering Learning Across Africa
     </h2>
-    <p className="text-lg mb-8 drop-shadow-md">
+    <p className="text-lg mb-4 drop-shadow-md">
       Access thousands of past papers, curated notes, and engaging videos—all in one place.
     </p>
     <div className="space-x-4">
