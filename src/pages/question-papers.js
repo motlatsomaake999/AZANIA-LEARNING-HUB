@@ -100,6 +100,30 @@ const papersByYear = {
   "NSC-Physical-Sciences-Grade-12-May-June-2023-P1-and-Memo.pdf",
   "NSC-Physical-Sciences-Grade-12-May-June-2023-P2-and-Memo.pdf",
   "NW-Physical-Sciences-Grade-12-SEPT-2023-P1-and-Memo.pdf"
+]"2022": [
+  "EC-Physical-Science-Grade-12-SEPT-2022-P1-and-Memo.pdf",
+  "Free-State-Physical-Science-March-2022-Grade-12-QP-and-Memo.pdf",
+  "FS-Physical-Science-Grade-12-June-2022-P1-and-Memo.pdf",
+  "FS-Physical-Science-Grade-12-SEPT-2022-P1-and-Memo.pdf",
+  "Gauteng-Physical-Science-Grade-12-SEPT-2022-P1-and-Memo.pdf",
+  "Gauteng-Physical-Science-Grade-12-June-2022-P1-and-Memo.pdf",
+  "IEB-Physical-Science-Grade-12-November-2022-P1-and-Memo.pdf",
+  "Limpopo-Physical-Science-Grade-12-Pre-Trial-2022-P1-and-Memo.pdf",
+  "Limpopo-Physical-Science-Grade-12-SEPT-2022-P2-and-Memo.pdf",
+  "Limpopo-Physical-Science-Grade-12-June-2022-P1-and-Memo.pdf",
+  "MP-Physical-Science-Grade-12-SEPT-2022-P1-and-Memo.pdf",
+  "MP-Physical-Science-Grade-12-SEPT-2022-P2-and-Memo.pdf",
+  "MP-Physical-Science-Grade-12-Organic-Chemistry-TEST-2022-and-Memo.pdf",
+  "NSC-Physical-Science-Grade-12-November-2022-P1-and-Memo.pdf",
+  "NW-Physical-Science-Grade-12-SEPT-2022-P1-and-Memo.pdf",
+  "NW-Physical-Science-Grade-12-SEPT-2022-P2-and-Memo.pdf",
+  "Physical-Science-Grade-12-June-2022-P1-and-Memo.pdf",
+  "Physical-Science-Grade-12-SEPT-2022-P1-and-Memo.pdf",
+  "Physical-Science-Grade-12-March-2022-QP-and-Memo.pdf",
+  "Physical-Science-NSC-Grade-12-June-2022-P2-and-Memo.pdf",
+  "Physical-Sciences-Grade-12-June-2022-P1-and-Memo.pdf",
+  "TEST-ELECTROCHEMISTRY-2022-and-Memo.pdf",
+  "TEST-ELECTROSTATICS-2022-and-Memo.pdf"
 ]
 
   // 🎯 Add other years here, e.g. "2024": [ ...files ], "2023": [ ...files ], up to "2014"
