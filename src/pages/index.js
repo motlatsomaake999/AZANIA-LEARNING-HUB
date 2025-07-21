@@ -54,7 +54,8 @@ export default function Home() {
       </section>
 
       {/* 📁 Content Sections */}
-        <div className="bg-white p-6 rounded-lg shadow">
+<section className="grid grid-cols-1 md:grid-cols-3 gap-6 px-6 py-12 bg-white">
+  <div className="bg-white p-6 rounded-lg shadow">
     <h3 className="text-xl font-semibold text-blue-800 mb-2">📄 Past Papers</h3>
     <p>Filter by subject, grade level, and exam board.</p>
     <Link href="/question-papers">
@@ -64,22 +65,22 @@ export default function Home() {
     </Link>
   </div>
 
-        <div className="bg-white p-6 rounded-lg shadow">
-          <h3 className="text-xl font-semibold text-purple-800 mb-2">📝 Study Notes</h3>
-          <p>Organized by topic. Includes PDFs, text & slides. Featuring top contributors.</p>
-          <button className="mt-4 bg-purple-100 text-purple-800 px-4 py-2 rounded hover:bg-purple-200">
-            Browse Notes
-          </button>
-        </div>
+  <div className="bg-white p-6 rounded-lg shadow">
+    <h3 className="text-xl font-semibold text-purple-800 mb-2">📝 Study Notes</h3>
+    <p>Organized by topic. Includes PDFs, text & slides. Featuring top contributors.</p>
+    <button className="mt-4 bg-purple-100 text-purple-800 px-4 py-2 rounded hover:bg-purple-200">
+      Browse Notes
+    </button>
+  </div>
 
-        <div className="bg-white p-6 rounded-lg shadow">
-          <h3 className="text-xl font-semibold text-pink-800 mb-2">🎥 Educational Videos</h3>
-          <p>Watch recent uploads. Filter by subject and grade.</p>
-          <button className="mt-4 bg-pink-100 text-pink-800 px-4 py-2 rounded hover:bg-pink-200">
-            Watch Videos
-          </button>
-        </div>
-      </section>
+  <div className="bg-white p-6 rounded-lg shadow">
+    <h3 className="text-xl font-semibold text-pink-800 mb-2">🎥 Educational Videos</h3>
+    <p>Watch recent uploads. Filter by subject and grade.</p>
+    <button className="mt-4 bg-pink-100 text-pink-800 px-4 py-2 rounded hover:bg-pink-200">
+      Watch Videos
+    </button>
+  </div>
+</section>
 
       {/* 💬 Why Azania Section */}
       <section className="bg-white py-12 px-6 text-center">
