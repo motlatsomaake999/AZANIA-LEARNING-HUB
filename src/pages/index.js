@@ -1,13 +1,14 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col text-gray-800 font-sans bg-gradient-to-br from-blue-50 to-purple-100">
-      
+
       {/* 🧠 Header */}
       <header className="flex justify-between items-center px-6 py-4 bg-white shadow-md">
         <div className="flex items-center space-x-3">
-          <img src="/Azania-logo.png" alt="Azania Logo" className="h-10 w-auto object-contain" />
+          <Image src="/Azania-logo.png" alt="Azania Logo" width={40} height={40} />
           <h1 className="text-2xl font-bold text-blue-900">Azania Learning Hub</h1>
         </div>
         <nav className="hidden md:flex space-x-6 text-blue-800">
@@ -24,38 +25,36 @@ export default function Home() {
         </div>
       </header>
 
-  {/* 📚 Hero Section with Background Image */}
-<section
-  className="relative h-[350px] md:h-[450px] flex items-center justify-center text-center bg-cover bg-center bg-no-repeat"
-  style={{ backgroundImage: "url('/hero-banner.jpg')" }}
->
-  <div className="bg-black bg-opacity-40 absolute inset-0"></div>
-
-  <div className="relative z-10 px-6 text-white max-w-3xl">
-    <h2 className="text-4xl md:text-5xl font-bold mb-2 drop-shadow-lg">
-      Empowering Learning Across Africa
-    </h2>
-    <p className="text-lg mb-4 drop-shadow-md">
-      Access thousands of past papers, curated notes, and engaging videos—all in one place.
-    </p>
-    <div className="space-x-4">
-      <Link href="/resources">
-        <button className="bg-purple-600 text-white px-6 py-3 rounded hover:bg-purple-700 shadow-lg">
-          Explore Resources
-        </button>
-      </Link>
-      <Link href="/join">
-        <button className="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 shadow-lg">
-          Join Now
-        </button>
-      </Link>
-    </div>
-  </div>
-</section>
+      {/* 📚 Hero Section */}
+      <section
+        className="relative h-[350px] md:h-[450px] flex items-center justify-center text-center bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: "url('/hero-banner.jpg')" }}
+      >
+        <div className="bg-black bg-opacity-40 absolute inset-0"></div>
+        <div className="relative z-10 px-6 text-white max-w-3xl">
+          <h2 className="text-4xl md:text-5xl font-bold mb-2 drop-shadow-lg">
+            Empowering Learning Across Africa
+          </h2>
+          <p className="text-lg mb-4 drop-shadow-md">
+            Access thousands of past papers, curated notes, and engaging videos—all in one place.
+          </p>
+          <div className="space-x-4">
+            <Link href="/resources">
+              <button className="bg-purple-600 text-white px-6 py-3 rounded hover:bg-purple-700 shadow-lg">
+                Explore Resources
+              </button>
+            </Link>
+            <Link href="/join">
+              <button className="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 shadow-lg">
+                Join Now
+              </button>
+            </Link>
+          </div>
+        </div>
+      </section>
 
       {/* 📁 Content Sections */}
       <section className="grid grid-cols-1 md:grid-cols-3 gap-6 px-6 py-12">
-        {/* 1️⃣ Past Papers */}
         <div className="bg-white p-6 rounded-lg shadow">
           <h3 className="text-xl font-semibold text-blue-800 mb-2">📄 Past Papers</h3>
           <p>Filter by subject, grade level, and exam board.</p>
@@ -64,7 +63,6 @@ export default function Home() {
           </button>
         </div>
 
-        {/* 2️⃣ Study Notes */}
         <div className="bg-white p-6 rounded-lg shadow">
           <h3 className="text-xl font-semibold text-purple-800 mb-2">📝 Study Notes</h3>
           <p>Organized by topic. Includes PDFs, text & slides. Featuring top contributors.</p>
@@ -73,7 +71,6 @@ export default function Home() {
           </button>
         </div>
 
-        {/* 3️⃣ Educational Videos */}
         <div className="bg-white p-6 rounded-lg shadow">
           <h3 className="text-xl font-semibold text-pink-800 mb-2">🎥 Educational Videos</h3>
           <p>Watch recent uploads. Filter by subject and grade.</p>
@@ -90,7 +87,7 @@ export default function Home() {
           Hear from real learners and educators who use Azania every day.
         </p>
         <div className="grid md:grid-cols-3 gap-6">
-         <div className="bg-blue-50 p-4 rounded shadow">&quot;This platform changed how I study!&quot; – Amina, Grade 12</div>
+          <div className="bg-blue-50 p-4 rounded shadow">&quot;This platform changed how I study!&quot; – Amina, Grade 12</div>
           <div className="bg-blue-50 p-4 rounded shadow">&quot;Clear notes and real exam papers.&quot; – Thabo, Teacher</div>
           <div className="bg-blue-50 p-4 rounded shadow">&quot;I passed thanks to Azania!&quot; – Lerato, University Student</div>
         </div>
