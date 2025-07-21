@@ -124,6 +124,27 @@ const papersByYear = {
   "Physical-Sciences-Grade-12-June-2022-P1-and-Memo.pdf",
   "TEST-ELECTROCHEMISTRY-2022-and-Memo.pdf",
   "TEST-ELECTROSTATICS-2022-and-Memo.pdf"
+],"2021": [
+  "EC-Physical-Science-Trial-2021-P1-and-Memo.pdf",
+  "Free-State-Physical-Science-Trial-2021-P1-and-Memo.pdf",
+  "GP-Physical-Science-Grade-12-Trial-Exam-2021-P1-and-Memo.pdf",
+  "GP-Physical-Science-Grade-12-Trial-Exam-2021-P2-only.pdf",
+  "LIMPOPO-Physical-Science-Trial-2021-P1-and-Memo.pdf",
+  "MCED-Physical-Science-Trial-2021-P1-and-Memo.pdf",
+  "MDE-PHYSICAL-SCIENCES-GR-12-June-2021-P1-and-Memo.pdf",
+  "NWP-Physical-Science-Trial-2021-P1-and-Memo.pdf",
+  "NWP-Physical-Science-Trial-2021-P2-and-Memo.pdf",
+  "Physical-Science-gr-12-April-2021-QP-and-Memo.pdf",
+  "Physical-Science-Grade-12-June-2021-NSC-P1-Memo-only.pdf",
+  "Physical-Science-Grade-12-June-2021-NSC-P2-Memo-only.pdf",
+  "Physical-Science-Grade-12-NSC-November-2021-P1-and-Memo.pdf",
+  "Physical-Science-Grade-12-NSC-November-2021-P2-and-Memo.pdf",
+  "Physical-Science-Grade-12-Trial-2021-P1-and-Memo.pdf",
+  "Physical-Science-Grade-12-Trial-2021-P1-and-Memo-with-Addendum.pdf",
+  "Physical-Science-Grade-12-Trial-2021-P2-and-Memo.pdf",
+  "Physical-Science-NCS-June-2021-Grade-12-P1-and-Memo.pdf",
+  "Physical-Science-NCS-June-2021-Grade-12-P2-and-Memo.pdf",
+  "WCED-Physical-Science-Trial-2021-P1-and-Memo.pdf"
 ]
 
   // 🎯 Add other years here, e.g. "2024": [ ...files ], "2023": [ ...files ], up to "2014"
