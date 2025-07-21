@@ -54,14 +54,15 @@ export default function Home() {
       </section>
 
       {/* 📁 Content Sections */}
-      <section className="grid grid-cols-1 md:grid-cols-3 gap-6 px-6 py-12">
         <div className="bg-white p-6 rounded-lg shadow">
-          <h3 className="text-xl font-semibold text-blue-800 mb-2">📄 Past Papers</h3>
-          <p>Filter by subject, grade level, and exam board.</p>
-          <button className="mt-4 bg-blue-100 text-blue-800 px-4 py-2 rounded hover:bg-blue-200">
-            Browse All Papers
-          </button>
-        </div>
+    <h3 className="text-xl font-semibold text-blue-800 mb-2">📄 Past Papers</h3>
+    <p>Filter by subject, grade level, and exam board.</p>
+    <Link href="/question-papers">
+      <button className="mt-4 bg-blue-100 text-blue-800 px-4 py-2 rounded hover:bg-blue-200">
+        Browse All Papers
+      </button>
+    </Link>
+  </div>
 
         <div className="bg-white p-6 rounded-lg shadow">
           <h3 className="text-xl font-semibold text-purple-800 mb-2">📝 Study Notes</h3>
