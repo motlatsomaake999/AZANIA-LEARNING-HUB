@@ -1,4 +1,4 @@
-import { useState } from 'react';
+ import { useState } from 'react';
 
 // 📁 All paper filenames organized by year
 const papersByYear = {
@@ -32,7 +32,45 @@ const papersByYear = {
     "NW-Physical-Science-Grade-12-June-2025-P1-and-Memo.pdf",
     "Physical-Science-Grade-12-Momentum-Practical-Notes-2018.pdf",
     "Physical-Science-Grade-12-Term-2-TITRATION-Practical-Manual.pdf"
-  ],
+  ],"2024": [
+  "EC-Physical-Science-Grade-12-June-2024-P1.pdf",
+  "EC-Physical-Science-Grade-12-June-2024-P2.pdf",
+  "FS-Physical-Sciences-Grade-12-March-2024.pdf",
+  "FS-Physical-Sciences-Grade-12-September-2024.pdf",
+  "GP-JN-Physical-Sciences-Grade-12-March-2024.pdf",
+  "GP-Physical-Sciences-Grade-12-June-2024-P1.pdf",
+  "GP-Physical-Sciences-Grade-12-June-2024-P2.pdf",
+  "GP-Physical-Sciences-Grade-12-September-2024.pdf",
+  "KZN-Physical-Science-Grade-12-June-2024-P1.pdf",
+  "KZN-Physical-Science-Grade-12-June-2024-P2.pdf",
+  "KZN-Physical-Science-Grade-12-March-2024.pdf",
+  "KZN-Physical-Sciences-Grade-12-PRE-TRIAL-2024.pdf",
+  "LP-Physical-Sciences-Grade-12-June-2024-P1.pdf",
+  "LP-Physical-Sciences-Grade-12-June-2024-P2.pdf",
+  "LP-Physical-Sciences-Grade-12-March-2024.pdf",
+  "LP-Physical-Sciences-Grade-12-September-2024.pdf",
+  "MP-Physical-Science-Grade-12-COLLECTABLE-2024.pdf",
+  "MP-Physical-Science-Grade-12-September-2024.pdf",
+  "MP-Physical-Science-Grade-12-TEST-Doppler-2024.pdf",
+  "MP-Physical-Sciences-Grade-12-June-2024-P1.pdf",
+  "MP-Physical-Sciences-Grade-12-June-2024-P2.pdf",
+  "MP-Physical-Sciences-Grade-12-September-2024.pdf",
+  "NSC-Physical-Sciences-Grade-12-May-June-2024-P1.pdf",
+  "NSC-Physical-Sciences-Grade-12-May-June-2024-P2.pdf",
+  "NSC-Physical-Sciences-Grade-12-November-2024-P1.pdf",
+  "NSC-Physical-Sciences-Grade-12-November-2024-P2.pdf",
+  "NW-Physical-Science-Grade-12-June-2024-P1.pdf",
+  "NW-Physical-Science-Grade-12-June-2024-P2.pdf",
+  "NW-Physical-Science-Grade-12-WORKBOOK-2024.pdf",
+  "NW-Physical-Sciences-Grade-12-September-2024.pdf",
+  "NW-Physical-Sciences-Grade-12-September-2024(1).pdf",
+  "Physical-Sciences-Gr-12-Assessment-Frame-Sep-2024.pdf",
+  "WC-CW-Physical-Sciences-Grade-12-September-2024.pdf",
+  "WC-MC-Physical-Sciences-Grade-12-September-2024.pdf",
+  "WC-MN-Physical-Sciences-Grade-12-September-2024.pdf",
+  "WC-Physical-Science-Grade-12-LAST-PUSH-2024.pdf"
+],
+
   // 🎯 Add other years here, e.g. "2024": [ ...files ], "2023": [ ...files ], up to "2014"
 };
 
