@@ -21,8 +21,15 @@ export default function Home() {
           <Link href="/social-media">Our Social Media</Link>
         </nav>
         <div>
-          <button className="bg-blue-700 text-white px-4 py-2 rounded hover:bg-blue-800">Login/Register</button>
-        </div>
+  <a
+    href="https://classroom.google.com/c/YOUR_CLASS_CODE"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700"
+  >
+    Join Our Classroom
+  </a>
+</div>
       </header>
 
       {/* 📚 Hero Section */}
@@ -43,12 +50,15 @@ export default function Home() {
               <button className="bg-purple-600 text-white px-6 py-3 rounded hover:bg-purple-700 shadow-lg">
                 Explore Resources
               </button>
-            </Link>
-            <Link href="/join">
-              <button className="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 shadow-lg">
-                Join Now
-              </button>
-            </Link>
+            <a
+  href="https://classroom.google.com/c/YOUR_CLASS_CODE"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <button className="bg-green-600 text-white px-6 py-3 rounded hover:bg-green-700 shadow-lg">
+    Join Classroom
+  </button>
+</a>
           </div>
         </div>
       </section>
