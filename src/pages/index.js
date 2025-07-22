@@ -54,10 +54,9 @@ export default function Home() {
   href="https://classroom.google.com/c/YOUR_CLASS_CODE"
   target="_blank"
   rel="noopener noreferrer"
+  className="bg-green-600 text-white px-6 py-3 rounded hover:bg-green-700 shadow-lg inline-block"
 >
-  <button className="bg-green-600 text-white px-6 py-3 rounded hover:bg-green-700 shadow-lg">
-    Join Classroom
-  </button>
+  Join Classroom
 </a>
           </div>
         </div>
