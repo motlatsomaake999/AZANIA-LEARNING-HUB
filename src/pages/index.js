@@ -50,6 +50,7 @@ export default function Home() {
               <button className="bg-purple-600 text-white px-6 py-3 rounded hover:bg-purple-700 shadow-lg">
                 Explore Resources
               </button>
+		</Link>
             <a
   href="https://classroom.google.com/c/YOUR_CLASS_CODE"
   target="_blank"
