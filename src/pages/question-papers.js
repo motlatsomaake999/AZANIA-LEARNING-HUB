@@ -145,6 +145,19 @@ const papersByYear = {
   "Physical-Science-NCS-June-2021-Grade-12-P1-and-Memo.pdf",
   "Physical-Science-NCS-June-2021-Grade-12-P2-and-Memo.pdf",
   "WCED-Physical-Science-Trial-2021-P1-and-Memo.pdf"
+],"2020": [
+  "Freestate-Phy-Sc-Sept-2020-P2-and-Memo.pdf",
+  "Limpopo-PHSC-September-2020-P2-and-MEMO-.pdf",
+  "MP-Physical-Sciences-Grade-12-Practical-MOMENTUM-2020-and-Memo.pdf",
+  "PHY-SC-Gr-12-March-2020-p2.pdf",
+  "PHY-SC-Gr-12-SEPT-2020-P1-and-Memo.pdf",
+  "Phy-Sc-Gr-12-Sept-2020-P2-and-MEMO.pdf",
+  "phy-sc-grade-12-P1March-2020-1.pdf",
+  "Physical-Science-Grade-12-Nov-2020-P1-and-Memo.pdf",
+  "Physical-Science-Grade-12-Nov-2020-P2-and-Memo.pdf",
+  "PHYSICAL-SCIENCE-P2-and-Memo-2020-June-KZN.pdf",
+  "Physical-Sciences-June-2020-Paper-1-and-Memo.pdf",
+  "PHYSICAL-SCIENCES-SEPT-2020-P1-and-MEMO-.pdf"
 ]
 
   // 🎯 Add other years here, e.g. "2024": [ ...files ], "2023": [ ...files ], up to "2014"
