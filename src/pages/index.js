@@ -22,7 +22,7 @@ export default function Home() {
         </nav>
         <div>
   <a
-    href="https://classroom.google.com/c/YOUR_CLASS_CODE"
+    href="https://classroom.google.com/c/2dczkq2e"
     target="_blank"
     rel="noopener noreferrer"
     className="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700"
@@ -52,7 +52,7 @@ export default function Home() {
               </button>
 		</Link>
             <a
-  href="https://classroom.google.com/c/YOUR_CLASS_CODE"
+  href="https://classroom.google.com/c/2dczkq2e"
   target="_blank"
   rel="noopener noreferrer"
   className="bg-green-600 text-white px-6 py-3 rounded hover:bg-green-700 shadow-lg inline-block"
